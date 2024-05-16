@@ -1,0 +1,133 @@
+body{
+    background-image: url('../../assets/autumn-studio-PaM7SD5wM6g-unsplash.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+  }
+  
+  .mat-mdc-card-header{
+      display: block;
+      padding: 16px 16px 0;
+    }
+  
+  
+  @media only screen and (max-width: 600px) {
+  .p-d{
+    margin: 0%;
+  
+  }
+  .example-card{
+  max-width: 38%;
+      height: 24%;
+      margin-right: 5%;
+  }
+  .c-cd{
+    height: 20%;
+    max-width: 100%;
+  }
+  .c-cp{
+    font-size: 45%;
+  }
+  .c-t{
+    font-size: 100%;
+    margin-left:0% ;
+  }
+  }
+  
+  .example-card {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-basis: 70%;
+  
+    flex-grow: 1;
+    flex-shrink: 0;
+    
+     max-height:300px;
+     min-height: 290px;
+     
+      margin: 5px;
+      margin-bottom: 5%;
+    }
+    
+    #c-title{
+      font-size: x-large;
+      margin-left: 50px;
+    }
+    .cards{
+      margin-left: 0px;
+      display: flex;
+      flex-grow: 1;
+      flex-shrink: 0;
+      width: 100%;
+      flex-basis:100%;
+      flex-wrap: wrap;
+    }
+    #card-img{
+      margin-right: 10px;
+      display: flex;
+     align-self: flex-end;
+      width: 200px;
+      height: 200px;
+      z-index: 0;
+    }
+    #card-btn {
+      display: flex;
+      margin-left: 50px;
+      margin-bottom: 20px;
+     }
+    #card-btn a{
+      
+      text-decoration: none;
+      color: white;
+    }
+    #card-p {
+      display: inline;
+      width: 400px;
+      position: absolute;
+      bottom: 150px;
+      right:300px;
+      left: 10px;
+      font-size: large;
+  
+    }
+   
+    .log{
+      margin: 5px;
+    }
+    
+    .dodo{
+      margin: 5px;
+      margin-left: 40%;
+    }
+    @media only screen and (max-width: 600px) {
+      #c-title{
+    font-size: small;
+    margin-left: 5%;
+      }
+      .mat-mdc-card-header{
+        padding: 0%;
+      }
+      #card-p{
+        width:100%;
+        bottom: 25%;
+        font-size: small;
+      }
+      #card-btn{
+        margin-left: 10%;
+        position: absolute;
+        bottom: 3%;
+    
+      }
+        #card-img{
+        width:70%;
+        max-height: 100px;
+        align-self: center;
+      }
+      .dodo{
+        margin-left: 17%;
+      }
+      .cards{
+        margin-left: 2%;
+      }
+      
+      }

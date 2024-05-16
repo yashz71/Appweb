@@ -1,0 +1,291 @@
+/*html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    margin: 0;
+
+    height: 100%;
+    width: 100%;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    margin-top: 0;
+}
+.btn{
+    margin: 10px;
+    font-size: medium;
+    width: 300px;
+    margin-left: 400px;
+}
+#title{
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 340px;
+    margin-top: 10;
+    display: inline;
+}
+.InDiv{
+    display: block;
+    width: 500px;
+    margin-left: 300px;
+}*/
+.main{
+    margin: 0;
+    height: 50%;
+    width: 100%;
+    background-image: url("../../assets/sarah-dorweiler-x2Tmfd1-SgA-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card{
+   background-color: #966F33;
+
+}
+.btn{
+    
+    margin-left: 12%;
+}
+.inp{
+    width: 80%;
+    margin-left: 10%;
+}
+#title{
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 80px;
+    margin-top: 50px;
+    display: inline;
+}
+.imgDiv{
+    max-width: 700px;
+    min-width: 600px;
+    max-height: 300px;
+    margin: 10px;
+    margin-left: 0%;
+
+}
+.Er{
+    color: red;
+    font-size: x-large;
+}
+.Val{
+    color: rgb(29, 174, 29);
+    font-size: x-large;
+}
+.l-p{  
+      max-width: 40%;
+      margin-top: 0%;
+      margin-left: 30%;
+}
+#l-h{
+    margin-top: 0%;
+    margin-left: 28%;
+    font-size: 490%;
+    font-family: cursive;
+    color: black;
+}
+
+.frm{
+    margin-top: 10%;
+}
+ 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    .main{
+        margin: 0;
+        height: 72%;
+        width: 100%;
+        background-image: url("../../assets/sarah-dorweiler-x2Tmfd1-SgA-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .card{
+       background-color: #966F33;
+    
+    }
+    .btn{
+       margin-left: 8%;
+    max-width: 114px;
+    }
+    .inp{
+        width: 80%;
+        margin-left: 10%;
+    }
+    #title{
+        font-size: 60px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 80px;
+        margin-top: 50px;
+        display: inline;
+    }
+    .imgDiv{
+        max-width: 700px;
+        min-width: 600px;
+        max-height: 300px;
+        margin: 10px;
+        margin-left: 0%;
+    
+    }
+    .Er{
+        color: red;
+        font-size: x-large;
+    }
+    .Val{
+        color: rgb(29, 174, 29);
+        font-size: x-large;
+    }
+    .l-p{  
+        max-width: 78%;
+        margin-top: 0%;
+        margin-left: 15%;
+    }
+    #l-h{
+        margin-top: 0%;
+        margin-left: 21%;
+        font-size: 249%;
+        font-family: cursive;
+        color: black;
+    }
+    
+    .frm{
+        margin-top: 10%;
+    }
+    
+}
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .main{
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        background-image: url("../../assets/sarah-dorweiler-x2Tmfd1-SgA-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .card{
+       background-color: #966F33;
+    
+    }
+    .btn{
+        
+        margin-left: 12%;
+    }
+    .inp{
+        width: 80%;
+        margin-left: 10%;
+    }
+    #title{
+        font-size: 60px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 80px;
+        margin-top: 50px;
+        display: inline;
+    }
+    .imgDiv{
+        max-width: 700px;
+        min-width: 600px;
+        max-height: 300px;
+        margin: 10px;
+        margin-left: 0%;
+    
+    }
+    .Er{
+        color: red;
+        font-size: x-large;
+    }
+    .Val{
+        color: rgb(29, 174, 29);
+        font-size: x-large;
+    }
+    .l-p{  
+          max-width: 40%;
+          margin-top: 0%;
+          margin-left: 30%;
+    }
+    #l-h{
+        margin-top: 0%;
+        margin-left: 28%;
+        font-size: 490%;
+        font-family: cursive;
+        color: black;
+    }
+    
+    .frm{
+        margin-top: 10%;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .main{
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        background-image: url("../../assets/sarah-dorweiler-x2Tmfd1-SgA-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .card{
+       background-color: #966F33;
+    
+    }
+    .btn{
+        
+        margin-left: 6%;
+    }
+    .inp{
+        width: 80%;
+        margin-left: 10%;
+    }
+    #title{
+        font-size: 60px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 80px;
+        margin-top: 50px;
+        display: inline;
+    }
+    .imgDiv{
+        max-width: 700px;
+        min-width: 600px;
+        max-height: 300px;
+        margin: 10px;
+        margin-left: 0%;
+    
+    }
+    .Er{
+        color: red;
+        font-size: x-large;
+    }
+    .Val{
+        color: rgb(29, 174, 29);
+        font-size: x-large;
+    }
+    .l-p{  
+          max-width: 40%;
+          margin-top: 0%;
+          margin-left: 30%;
+    }
+    #l-h{
+        margin-top: 0%;
+        margin-left: 28%;
+        font-size: 490%;
+        font-family: cursive;
+        color: black;
+    }
+    
+    .frm{
+        margin-top: 10%;
+    }
+  } 
+ 

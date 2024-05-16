@@ -1,0 +1,33 @@
+
+<div class="main">
+    <div class="lgn">
+    <h1 id="l-h">Welcome Back</h1>
+
+    <div class="l-p">
+        <div style="margin-left: 30%;">
+            <h1 *ngIf="error" class="Er">{{error}}</h1>
+            <h1 *ngIf="valid" class="Val">{{valid}}</h1>
+        </div>
+
+<form class="frm" [formGroup]="userFormGroup" (ngSubmit)="handleLogin()">
+    <div class="card-body" >
+       
+        <mat-form-field class="inp" >
+        <label>USER NAME</label>
+        <input matInput type="text" formControlName="username" required >
+    </mat-form-field>
+    </div>
+    <div class="card-body" >
+        <mat-form-field class="inp">
+        <label>PASSWORD</label>
+        <input matInput type="password" formControlName="password" required>
+        </mat-form-field>
+    </div>
+    <button class="btn" mat-raised-button type="submit" >SUBMIT</button>
+    <button mat-raised-button (click)="goSignUp()" class="btn" > don't have Account</button>
+
+</form>
+
+</div>
+</div>
+</div>

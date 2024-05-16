@@ -1,0 +1,66 @@
+<mat-drawer-container class="example-container" [hasBackdrop]="'unset'">
+  <mat-drawer #drawer [mode]="'over'">
+    
+    
+  <mat-divider></mat-divider>
+
+  <mat-list role="list">
+    <mat-list-item role="listitem" routerLink="/beauty">Beauty Products</mat-list-item>
+    <mat-divider></mat-divider>
+    <mat-list-item role="listitem" routerLink="/kitchenware">Kitchenware</mat-list-item>
+    <mat-divider></mat-divider>
+
+    <mat-list-item role="listitem" routerLink="/garments">Garments</mat-list-item>
+  </mat-list>
+  </mat-drawer>
+  <mat-drawer-content>
+<mat-toolbar >
+  
+      
+      
+      <button mat-flat-button (click)="drawer.toggle()" id="d-btn"><mat-icon>menu</mat-icon></button>
+    <button mat-raised-button [hidden]="this.conn">
+
+  <span class="s-m"   routerLink="/home">My Application</span></button>
+            <span class="example-spacer"></span>
+
+  <button mat-raised-button   routerLink="/login" class="t-b"> Login</button>
+  <button mat-raised-button   routerLink="/signup" class="t-b">signup</button>
+  <div [hidden]="this.conn">
+  <mat-accordion id="m-a" color="primary" >
+    <mat-expansion-panel (opened)="panelOpenState = true"
+    (closed)="panelOpenState = false" style="z-index: 1;">
+<mat-expansion-panel-header>
+<mat-panel-title style="z-index: 1;">
+Categories
+</mat-panel-title>
+<mat-panel-description>
+</mat-panel-description>
+</mat-expansion-panel-header>
+<p routerLink="/beauty" >Beauty Products</p>
+<mat-divider></mat-divider>
+
+<p routerLink="/kitchenware">Kitchenware</p>
+<mat-divider></mat-divider>
+
+<p routerLink="/garments">Garments</p>
+
+</mat-expansion-panel>
+</mat-accordion>
+</div>
+</mat-toolbar>
+<router-outlet ></router-outlet> 
+<footer>
+  
+  <h1  class="h-f"><a href="mailto:blabla@gmail.com" style="color: white; text-decoration: none; margin-left: 1%;">Contact Us</a></h1>
+   
+    <div id="social">
+      <ul class="quack">
+      <li><a href="https://fr-fr.facebook.com/"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+      <li><a href="https://www.instagram.com/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+     
+      </ul>
+  </div>
+</footer>
+</mat-drawer-content>
+</mat-drawer-container>

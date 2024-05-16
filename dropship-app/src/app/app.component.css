@@ -1,0 +1,252 @@
+.example-container{
+   height: 100%;
+}
+.example-spacer {
+   flex: 1 1 auto;
+ }
+#d-btn{
+   display: none;
+}
+.s-m{
+   font-family: cursive;
+    font-size: x-large;
+}
+.h-f{
+   min-width: 20%;
+}
+
+.f-f{
+   display: none;
+    width:400px;
+    margin-left: 1%;
+    margin-top: 1.8%;
+}
+.mdc-button{
+    min-width:0px ;
+}
+#s-b{
+   display: none;
+    border-radius: 100%;
+    height:51px;
+    width: 54px;
+    margin-left: 10%;
+   box-shadow: none;
+}
+.t-b{
+    margin-left: 1%;
+    background-color:rgb(194, 188, 188);
+}
+#m-a{
+   display: none;
+    margin-left: 1%;
+    max-width: 200px;
+    max-height: 100px;
+    z-index: 1;
+
+}
+footer {
+    text-align:left;
+    padding: 3px;
+    background-color: rgb(194, 188, 188);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    position:relative;
+    left: 0;
+    bottom: 0%;
+    width: 100%;
+  }
+  #social {
+    margin-top: 1%;
+    margin-left: 500px;
+    margin-bottom: 20px;
+    flex-basis: 10%;
+    flex-grow: 0;
+    flex-wrap: nowrap;
+ }
+ .quack{
+    display: flex;
+    margin: 0%;
+    box-shadow:none;
+    background-color: rgb(194, 188, 188);
+    flex-wrap: nowrap;
+ }
+ ul{
+    text-decoration: none;
+    list-style-type: none;
+ }
+ ul li a {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 1;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 50%;
+    padding: 6px;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(0deg, #ddd, #fff);
+    transition: 0.5s;
+ }
+ ul li a:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+ }
+ ul li a .fab {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: linear-gradient(0deg, #fff, #ddd);
+    border-radius: 50%;
+    line-height: calc(60px - 12px) ;
+    font-size: 24px;
+    color: gray;
+    transition: 0.5s;
+ }
+ ul li:nth-child(1) a:hover .fab {
+    color: #3b5998;
+ }
+ 
+ ul li:nth-child(2) a:hover .fab {
+    color: #e4405f;
+ }
+ 
+ @media only screen and (min-width: 768px) {
+   .f-f{
+      display: block;
+   }
+   #s-b{
+      display: block;
+   }
+   #m-a{
+      display: block;
+   }
+ }
+ @media only screen and (max-width: 600px) {
+   #d-btns{
+      display: block;
+      height: 24px;
+      padding: 0px;
+      width:41px;
+      margin-left:3% ;
+      margin-top: 3%;
+   }
+   .d-srh{
+      display: flex;
+      flex-wrap: nowrap;
+      flex-grow: 0;
+      flex-shrink: 1;
+      margin-top: 3%;
+   }
+   .d-ff{
+      width:250px;
+      margin-top: 1.8%;
+   }
+   #d-sb{
+      border-radius: 100%;
+    height:51px;
+    width: 54px;
+    margin-top: 2%;
+      
+   }
+   #d-btn{
+      display: block;
+      height: 19px;
+      width:41px;
+   }
+   .h-f{
+     
+         min-width: 60%;
+     font-size: 190%;
+ 
+     
+    margin-left: 30%;
+   }
+   mat-toolbar{
+      height: 10%;
+   }
+   .s-m{
+      margin-left: 5%;
+      font-family: cursive;
+       font-size: large;
+   }
+   .f-f{
+      display: none;
+      width:400px;
+      margin-left: 1%;
+      margin-top: 1.8%;
+  }
+  .mdc-button{
+      min-width:0px ;
+  }
+  #s-b{
+   display: none;
+      border-radius: 100%;
+      height:51px;
+      width: 54px;
+      margin-left: 10%;
+  }
+  .t-b{
+      margin-left: 5%;
+      background-color:rgb(194, 188, 188);
+  }
+  #m-a{
+   display: none;
+      margin-left: 1%;
+      max-width: 200px;
+      max-height: 100px;
+      z-index: 10000;
+  
+  }
+  footer {
+   text-align:left;
+   padding: 0px;
+   background-color: rgb(194, 188, 188);
+   color: white;
+   display: flex;
+   flex-wrap: wrap;
+   position:relative;
+   left: 0;
+   bottom: 0%;
+   width: 100%;
+ }
+ #social {
+   margin-top: 1%;
+   margin-left: 10%;
+   margin-bottom: 20px;
+   flex-basis: 10%;
+   flex-grow: 0;
+   flex-wrap: nowrap;
+}
+.quack{
+   display: flex;
+   margin: 0%;
+   box-shadow:none;
+   background-color: rgb(194, 188, 188);
+   flex-wrap: nowrap;
+}
+ }
+ @media only screen and (min-width: 768px) {
+   #s-b{
+      border-radius: 113%;
+    height: 70px;
+    width: 91px;
+    margin-left: 3%;
+  }
+   .h-f{
+   min-width: 43%;
+  }
+   #social{
+   margin-top: 1%;
+   margin-left: 77px;
+   margin-bottom: 20px;
+   flex-basis: 10%;
+   flex-grow: 0;
+   flex-wrap: nowrap;
+   }
+}

@@ -1,0 +1,29 @@
+<div  class="cards">
+    <mat-card class="example-card" *ngFor="let products of products">
+        <mat-card-header>
+          <mat-card-title id="c-title">{{products.title}}</mat-card-title>
+        </mat-card-header>
+        <img id="card-img" mat-card-image src={{products.img}} alt="Photo of a Shiba Inu">
+        
+          <p id="card-p">
+            {{products.desc}}
+          </p>
+        
+        <mat-card-actions>
+            <button id="card-btn" mat-raised-button color="primary" class="snipcart-add-item"  
+          
+            [attr.data-item-id]="products.title"
+    [attr.data-item-price]="products.price"
+    [attr.data-item-image]="products.img"
+    [attr.data-item-name]="products.title"
+            >Buy now</button>
+            
+  
+        </mat-card-actions>
+      </mat-card>
+    </div>
+    <div class="dodo"><button  class="log" mat-raised-button color="primary" [disabled]="!hasPrevPage" (click)="indexMin()">precedente</button>
+      <span  >{{inDex}}</span>
+      <button class="log"  mat-raised-button color="primary" [disabled]="!hasNextPage" (click)="indexPlus()">suivante</button></div>  
+  
+      <!-- https://api-sg.aliexpress.com/rest{api_path}?{query} -->

@@ -1,0 +1,30 @@
+    <div class="main">
+        <h1 id="l-h">Welcome To Our Shop</h1>
+    <form class="form" ngForm (submit)="onSubmit($event); assignmentForm.reset()"  #assignmentForm>
+        <mat-form-field  class="inp">
+            <input matInput [(ngModel)]="userName" name="nom" placeholder="User Name" required>
+    
+        </mat-form-field>
+        <mat-error class="m-e" *ngIf="err">{{err}}</mat-error>
+
+    
+        <mat-form-field  class="inp">
+            <input matInput type="email" [(ngModel)]="userMail" name="nom" placeholder="User Mail" required>
+    
+        </mat-form-field>
+        <mat-error class="m-e" *ngIf="err">{{err}}</mat-error>
+
+        <mat-form-field  class="inp">
+            <input matInput type="password" [(ngModel)]="userPass" name="nom" placeholder="Password" required>
+    
+        </mat-form-field>
+        <mat-error class="m-e" *ngIf="err">{{err}}</mat-error>
+
+        <h1 *ngIf="val" style="color:rgb(11, 182, 11);">{{val}}</h1>
+        <button class="btn" mat-raised-button [disabled]="cform"
+        (click)="onSubmit($event)"
+        >Sign Up</button>
+    </form>
+    
+
+    </div> 
