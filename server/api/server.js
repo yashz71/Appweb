@@ -27,7 +27,7 @@ var upload = multer({ storage: storage });
 
 
 // remplacer toute cette chaine par l'URI de connexion à votre propre base dans le cloud s
-const uri = 'mongodb+srv://zaouiyash:kZZcRAvQe1Y9HVak@cluster0.9ovk1e2.mongodb.net/products?retryWrites=true&w=majority&appName=Cluster0';
+const uri = '';
 app.set('view engine', 'ejs');
 
 const options = {
